@@ -7,7 +7,7 @@ Welcome to the Sort Number Game! This simple React application challenges users 
 To get started with the Sort Number Game, follow these steps:
 
 ### 1. Clone the Repository
-git clone https://github.com/your-username/sort-number-game.git
+git clone git@github.com:Aryanipuspitasari/numbergame.githttps://github.com/your-username/sort-number-game.git
 
 ### 2. Navigate to the Project Directory
 
