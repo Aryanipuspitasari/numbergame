@@ -6,6 +6,7 @@ const ButtonContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
+  margin-top: 10px;
 `;
 
 const NumberButton = styled.button`
@@ -73,19 +74,6 @@ function NumbersBlock() {
     setRandomNumbers(shuffledNumbers)
   };
 
-  {
-    /*
-
-  const generateRandomNumbers = () => {
-    const shuffledNumbers = Array.from(
-      { length: 9 },
-      (_, index) => index + 1
-    ).sort(() => Math.random() - 0.5);
-    const uniqueRandomNumbers = shuffledNumbers.slice(0, 9);
-    setRandomNumbers(uniqueRandomNumbers);
-  };
-*/
-  }
 
   const checkIfSorted = () => {
     const isCorrectOrder = clickedNumbers.every(
@@ -151,7 +139,7 @@ function NumbersBlock() {
   return (
     <>
       <div>
-        <Title>Sort numbers game</Title>
+        <Title>Sort the numbers game</Title>
         <p>Timer: {timer} seconds</p>
       </div>
       <ButtonContainer>
