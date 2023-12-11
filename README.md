@@ -1,8 +1,18 @@
-# React + Vite
+# Sort Number Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Sort Number Game! This simple React application challenges users to sort a random set of numbers by clicking and unclicking them. Once sorted, users can submit their arrangement or reset the game to start again.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with the Sort Number Game, follow these steps:
+
+### 1. Clone the Repository
+git clone https://github.com/your-username/sort-number-game.git
+
+### 2. Navigate to the Project Directory
+
+### 3.  Install Dependencies
+npm install
+
+### 4. Run the Development Server
+npm run dev
