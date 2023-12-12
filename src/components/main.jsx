@@ -119,6 +119,8 @@ function NumbersBlock() {
   const handleReset = () => {
     setClickedNumbers([])
     setTimer(0)
+    generateRandomNumbers()
+    setSubmitted(false)
   }
 
   useEffect(() => {
